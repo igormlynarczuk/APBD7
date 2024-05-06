@@ -14,7 +14,7 @@ namespace ProductWarehouseApp
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
-                    webBuilder.UseStartup<Startup>();
+                    
                 });
     }
 }
